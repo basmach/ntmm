@@ -62,31 +62,15 @@
 	// Page Nav
 	var clickMenu = function() {
 
-		$('#navbar a:not([class="external"])').click(function(event){
-			var section = $(this).data('nav-section'),
-				navbar = $('#navbar');
+		$('#goto-tutorials').click(function(event){
 
-				if ( $('[data-section="' + section + '"]').length ) {
-			    	$('html, body').animate({
-			        	scrollTop: $('[data-section="' + section + '"]').offset().top
+				$('html, body').animate({
+			        	scrollTop: $('[data-section="tutorials"]').offset().top
 			    	}, 500);
-			   }
-
-		    if ( navbar.is(':visible')) {
-		    	navbar.removeClass('in');
-		    	navbar.attr('aria-expanded', 'false');
-		    	$('.js-fh5co-nav-toggle').removeClass('active');
-		    }
 
 		    event.preventDefault();
 		    return false;
 		});
-
-      
-      var clock = $('.clock').FlipClock(3600 * 24 * 3, {
-		clockFace: 'DailyCounter',
-		  countdown: true
-	     });
       
 	};
 
