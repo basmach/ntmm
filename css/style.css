@@ -61,8 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div.bsmh img {
-  height: 10%;
-  width: 10%;
+  height: 20%;
+  width: 20%;
 }
 
 .edge--bottom {
@@ -429,13 +429,13 @@ div.bsmh img {
   border-bottom: 1px dashed white;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   margin: 0 0 20px 0;
 }
 #fh5co-home .text-inner h2 {
   font-size: 28px;
-  line-height: 38px;
+  line-height: 28px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
